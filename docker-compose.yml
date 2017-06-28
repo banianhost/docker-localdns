@@ -1,0 +1,12 @@
+version: '3'
+services:
+  localdns:
+    image: banian/localdns
+    container_name: localdns
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+    cap_add:
+      - NET_ADMIN
+    network_mode: bridge
+    restart: always
