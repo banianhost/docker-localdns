@@ -48,5 +48,13 @@ Name:   foobar.local
 Address: 127.0.0.1
 ```
 
+## Setup osX to resolve `*.local`
+
+```bash
+sudo bash -c "mkdir -p /etc/resolver && echo 'nameserver 127.0.0.1' > /etc/resolver/local"
+```
+
+You may have to reboot to resolver being enabled.
+
 # License
 MIT
