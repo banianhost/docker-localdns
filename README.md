@@ -1,6 +1,6 @@
 # LocalDNS
 
-> Wildcard DNS to resolve `*.localhost`
+> Wildcard DNS to resolve `*.local`
 
 ## Quick run
 
