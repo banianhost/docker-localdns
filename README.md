@@ -1,6 +1,6 @@
 # LocalDNS
 
-> Wildcard DNS to resolve `*.local`
+> Wildcard DNS to resolve `*.local|localhost|dev`
 
 ## Quick run
 
@@ -50,7 +50,7 @@ Address: 127.0.0.1
 
 ## Setup osX to resolve `*.local`
 
-```bash
+```bas
 sudo bash -c "mkdir -p /etc/resolver && echo 'nameserver 127.0.0.1' > /etc/resolver/local"
 ```
 
